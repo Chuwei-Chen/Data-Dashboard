@@ -26,8 +26,8 @@ library(knitr)
 library(kableExtra)
 
 #Load Global Data
-rbd <- readRDS("data/ResiliencyDB.rds")
-variable_info <- read_excel("data/Variable_Info.xlsx")
+rbd <- readRDS(""path/to/your/data.csv"")
+variable_info <- read_excel(""path/to/your/data.xsl".xlsx")
 
 # Predictors table
 Predictors_vars <- data.frame(
