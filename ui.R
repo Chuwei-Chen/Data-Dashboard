@@ -13,7 +13,7 @@ library(shinysurveys)
 
 # Header setup
 dbHeader <- dashboardHeader()
-dbHeader$children[[2]]$children <- tags$a(href='https://gld.gu.se/en/our-research/ongoing-projects/boundaries-and-barriers-social-institutions-and-domestic-migration-in-southern-africa/'
+dbHeader$children[[2]]$children <- tags$a(href="path/to/your/link.csv"
 )
 
 survey_questions <- data.frame(
